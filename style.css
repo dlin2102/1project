@@ -1,0 +1,27 @@
+@keyframes animatedBackground {
+	from { background-position: 0 0; }
+	to { background-position: 100% 0; }
+}
+body{
+	width: 100%;
+	height: 100%;
+	background-image: url(http://clipart-library.com/images/kiKo6j5LT.png);
+	background-position: 0px 0px;
+	background-repeat: repeat-x;
+  animation: animatedBackground 100s linear infinite;
+}
+header{
+  text-align: center;
+}
+main{
+ background: rgba(255, 255, 255, 0.6);
+ text-align: left;;
+ width:50%;
+ margin:auto;
+ padding: 0 25px 40px 10px;
+ border:4px solid #B0E0E6;
+ border-radius:5px;
+ font-weight: bold;
+ box-shadow: 5px 5px 5px #888;
+}
+}
