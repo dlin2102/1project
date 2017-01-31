@@ -4,7 +4,7 @@ $( document ).ready(function() {
   for (var i=1; i < 5; i++) {
     setQuizListeners('question' + i, 'question' + (parseInt(i)+1));
   }
-  
+
   $('input:radio[name=question5]').on('click', function(){
     tally();
   })
@@ -32,7 +32,7 @@ $( document ).ready(function() {
       score++;
     }
 
-    $('#scoreboard').text(score);
+    $('#scoreboard').text('Lakitu says "You got '+ score +' out of 5 correct!"')
   }
 
   function setQuizListeners(currentInputName, nextInputName) {

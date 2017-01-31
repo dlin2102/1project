@@ -6,22 +6,22 @@
     <title>Quiz Game</title>
   </head>
   <body>
-      <!-- <h2 id="test_status"></h2> -->
-      <!-- <main class="test"> -->
-      <header>
+      <center><header>
         <h1>Trivia Game</h1>
-        <h3>Test your knowledge of absurd facts!</h3>
-      </header>
+        <h3>Test your knowledge of obsure facts!</h3>
+        <img id="looking" src="http://www.mariowiki.com/images/thumb/e/ec/Lakitu-NSMBU.png/200px-Lakitu-NSMBU.png" alt="Mario Kart" height="150" width="150">
+      </header></center>
       <main>
+        <span id="scoreboard"></span>
         <div class="question1">
           <p>In Hong Kong, what is a wife, who has been betrayed by her adulterous husband, legally allowed to do?</p>
           <form id="ques1">
             <input type="radio" name="question1" value="Kill him but only with her bare hands"> Kill him but only with her bare hands<br>
-            <input type="radio" name="question1" value="Divorce him and get all the money"> Divorce him and get all the money<br>
+            <input type="radio" name="question1" value="Divorce him and take all hi money"> Divorce him and get all the money<br>
             <input type="radio" name="question1" value="Cage fight with first choice of weapons"> Cage fight with first choice of weapons<br>
           </form>
         </div>
-        <div class="question2" style="display: none">
+        <div class="question2">
           <p>What is the world's most popular first name?</p>
           <form id="ques2">
             <input type="radio" name="question2" value="Alex"> Alex <br>
@@ -29,7 +29,7 @@
             <input type="radio" name="question2" value="Ping"> Ping<br>
           </form>
         </div>
-        <div class="question3" style="display: none">
+        <div class="question3">
           <p>What do they not have in Las Vegas Casinos?</p>
           <form id="quiz3">
             <input type="radio" name="question3" value="Clocks"> Clocks<br>
@@ -37,7 +37,7 @@
             <input type="radio" name="question3" value="Radios"> Radios<br>
           </form>
         </div>
-        <div class="question4" style="display: none">
+        <div class="question4">
           <p>What is a group of ravens known as?</p>
           <form id="quiz4">
             <input type="radio" name="question4" value="A murder"> A murder<br>
@@ -45,7 +45,7 @@
             <input type="radio" name="question4" value="A blessing"> A blessing<br>
           </form>
         </div>
-        <div class="question5" style="display: none">
+        <div class="question5">
           <p>How long is a goldfish's memory?</p>
           <form id="quiz5">
             <input type="radio" name="question5" value="3 seconds"> 3 seconds<br>
@@ -53,8 +53,6 @@
             <input type="radio" name="question5" value="2 days"> 2 days<br>
           </form>
         </div>
-
-        <span id="scoreboard"></span>
 
       </main>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
