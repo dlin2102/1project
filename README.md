@@ -10,7 +10,7 @@ Installation instructions:
 This has jquery installed.
 
 Unsolved problems:
- I wanted Lakitu to run out with a traffic light and have the traffic light go from red to green and increment that change with sound. But that's a little ambitious.
+ I wanted Lakitu to run out with a traffic light and have the traffic light go from red to green and increment that change with sound. But that's a little ambitious. I'll keep working on it.
 
 
 User Stories
