@@ -33,14 +33,15 @@ main{
  font-weight: bold;
  box-shadow: 5px 5px 5px #888;
 }
-.question2, .question3, .question4, .question5{
+.hidden{
 	display: none;
 }
 #scoreboard{
 	color: blue;
-	float:right;
-
 }
-img{
+#looking{
 	float:right;
+}
+#start{
+	display:none;
 }

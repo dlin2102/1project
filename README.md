@@ -4,13 +4,13 @@ I used html, css, and javascript.
 
 Approach taken:
 First, I mapped out the barebones of the project. What I needed to have vs. what it would be nice to have.
-The javascript was the hardest but I got some help figuring out how to do it.
+
 
 Installation instructions:
 
 
 Unsolved problems:
-I still have to figure out how to make the max final score 5/5. 
+ I wanted Lakitu to run out with a traffic light and have the traffic light go from red to green and increment that change with sound. But that's a little more ambitious. 
 
 
 User Stories

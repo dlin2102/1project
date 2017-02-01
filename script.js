@@ -1,14 +1,20 @@
 $( document ).ready(function() {
   var score = 0;
 
-  for (var i=1; i < 5; i++) {
+  for (var i=1; i < 6; i++) {
     setQuizListeners('question' + i, 'question' + (parseInt(i)+1));
   }
 
   $('input:radio[name=question5]').on('click', function(){
     tally();
-  })
+  });
 
+$('button.restart').on('click',function(){
+ $('.question6').hide();
+ $('.question1').show();
+ score = 0;
+ $('input:radio').prop('checked',false);
+});
 
   function tally(){
     var choice1 = $('input:radio[name=question1]:checked').val();
@@ -19,16 +25,16 @@ $( document ).ready(function() {
     if(choice1 === "Kill him but only with her bare hands"){
       score++;
     }
-    if(choice2 === "Muhammad"){
+    if(choice2 === "Forget her birthday"){
       score++;
     }
-    if(choice3 === "Clocks"){
+    if(choice3 === "Wear a mask in public"){
       score++;
     }
-    if(choice4 === "An unkindness"){
+    if(choice4 === "Be fat"){
       score++;
     }
-    if(choice5 === "5 months"){
+    if(choice5 === "Philippines"){
       score++;
     }
 
