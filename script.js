@@ -1,7 +1,8 @@
 $( document ).ready(function() {
+
   var score = 0;
 
-  for (var i=1; i < 6; i++) {
+  for (var i=0; i < 6; i++) {
     setQuizListeners('question' + i, 'question' + (parseInt(i)+1));
   }
 
@@ -15,6 +16,11 @@ $('button.restart').on('click',function(){
  score = 0;
  $('input:radio').prop('checked',false);
 });
+
+$('button.startgame').on('click',function(){
+  $('.question1').show();
+  $('.question0').hide();
+})
 
   function tally(){
     var choice1 = $('input:radio[name=question1]:checked').val();
