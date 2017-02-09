@@ -12,16 +12,22 @@
         <img id="looking" class="question6 hidden" src="http://www.mariowiki.com/images/thumb/e/ec/Lakitu-NSMBU.png/200px-Lakitu-NSMBU.png" alt="Mario Kart" height="200" width="200">
         <img id ="ques1pic" class="question0" src="http://vignette2.wikia.nocookie.net/fantendo/images/6/6c/Lakitu_Artwork.png/revision/latest?cb=20111217140811" alt="hello" height="200" width="200">
       </header></center>
+      <!-- Instead of using a 'center' element to center your header, use margin in your CSS (makes your code DRYer) -->
       <main>
         <img id="start" src="http://vignette2.wikia.nocookie.net/mariokart/images/5/51/LakituLight8.png/revision/latest?cb=20140602230555" alt="begin">
+        <!-- Lakitu!! Great UI addition. See if you can do what you had originally planned and make him fly around -->
         <div class="question0">
           <center><button class="startgame">
             Start Game
           </button><center>
+          <!-- Use margin to center the buttons too -->
         </div>
         <div class="question1 hidden">
           <p>In Hong Kong, what is a wife, who has been betrayed by her adulterous husband, legally allowed to do?</p>
           <form id="ques1">
+            <!-- Do each of these inputs need 'name="question1"' since they are already
+            inside of the form with 'id="ques1"'? We could identify this info for these
+            inputs by looking at their parent element-->
             <input type="radio" name="question1" value="Kill him but only with her bare hands"> Kill him but only with her bare hands<br>
             <input type="radio" name="question1" value="Divorce him and take all of his money"> Divorce him and take all of his money<br>
             <input type="radio" name="question1" value="Cage fight with first choice of weapons"> Cage fight with first choice of weapons<br>
@@ -66,7 +72,9 @@
           </button><center>
         </div>
       </main>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script type="text/javascript" src="script.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+      <script type="text/javascript" src="script.js"></script>
   </body>
 </html>
+
+<!-- Good semantic naming conventions and HTML formatting, very clear and easy to read! -->

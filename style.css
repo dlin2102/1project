@@ -2,6 +2,7 @@
 	from { background-position: 0 0; }
 	to { background-position: 100% 0; }
 }
+/*Great job using keyframes to animate background image. Make for a much enhanced user experience*/
 body{
 	width: 100%;
 	height: 100%;
@@ -67,3 +68,8 @@ main{
 .question0{
 	padding: 25px;
 }
+/*
+Great styling! Only possible improvements I see would be to style the font to make
+it sync better with the theme of your app (look into Google Web Fonts) and to make
+your layout reponsive (ie it adapts to screen width, look into using flexbox and
+	media queries). */
